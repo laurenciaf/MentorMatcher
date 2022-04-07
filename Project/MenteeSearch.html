@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mentee Search</title>
+        <link rel="image_src" href="fdm.png">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/d85342e9bc.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header id="header">
+            <div class="container">
+                <img src="./assets/fdm.png" class="logo">  
+                <nav class="navbar">
+                <ul>
+                    <li class="menu"><a href="MenteeWelcome.html">Home</a></li>
+                    <li class="menu"><a href="./MenteeSearch.html">Search Mentor</a></li>
+                    <li class="menu"><a href="./index.html">View Channel</a></li>
+                    <li class="menu"><a href="./index.html">Edit Profile</a></li>
+                    <li class="menu"><a href="https://www.fdmgroup.com/contact/">Log Out</a></li>
+                    
+                    <br>
+                </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="SearchMenu">
+            <h1>Search For Mentor</h1>
+            <form method="post">
+                <div class="container">
+                    <h1>Mentor Name</h1>
+                    <div class="search-box">
+                        <input type="text" class="search" placeholder="Search Mentor">
+                    </div>
+                    <h1>Company Of Interest</h1>
+                    <div class="company-box">
+                        <input type="text" class="search" placeholder="Company">
+                    </div>
+                    <h1> Minimum Years in Industry</h1>
+                    <div class="age-box">
+                        <input type="text" class="search" placeholder="Years in industry" required>
+                    </div>
+                    <h1>Field of Intrest</h1>
+                    <select class="select" required>
+                        <option disabled selected>Field of Interest</option>
+                        <option value="Sofware">Software Engineering</option>
+                        <option value="Cyber">Cyber Security</option>
+                        <option value="Data">Data Science</option>
+                        <option value="Networking">Networking</option>
+                        <option value="PM">Project Management</option>
+                        <option value="any">Any</option>
+
+
+                    </select>
+
+                   
+                    
+                   
+                </div>
+              
+               
+            
+             <input type="submit" value="Search">
+            </form>
+ 
+            
+        </div>
+
+           
+
+        
+
+    </body>
+</html>    
